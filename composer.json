@@ -1,0 +1,34 @@
+{
+  "name": "hustle-launch/hustle-launch-booking",
+  "description": "A simple wordpress plugin for booking appointments for a service with a staff member.",
+  "version": "0.0.1-alpha",
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/hustlelaunch/hustle-launch-booking",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "booking",
+    "appointments",
+    "calendar"
+  ],
+  "readme": "README.md",
+  "repositories": {
+    "composer": {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Hurley",
+      "email": "support@hustlelaunch.com"
+    }
+  ],
+  "require": {
+    "google/apiclient": "^2.17"
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}

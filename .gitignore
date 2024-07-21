@@ -1,0 +1,5 @@
+.anima
+.DS_Store
+._*
+/vendor/
+/node_modules/
