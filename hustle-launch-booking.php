@@ -48,6 +48,7 @@ function hustle_launch_booking_install_tables()
       PRIMARY KEY  (id)
   ) $charset_collate;";
   dbDelta($sql);
+
   $table_name = $wpdb->prefix . 'hustle_launch_booking_staff';
   $sql = "CREATE TABLE $table_name (
       id mediumint(9) NOT NULL AUTO_INCREMENT,

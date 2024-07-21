@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true,
+  "[php]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.bracketSameLine": true,
+  "prettier.pluginSearchDirs": ["./node_modules/prettier/plugin-php"]
+}
